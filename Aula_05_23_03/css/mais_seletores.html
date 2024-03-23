@@ -7,29 +7,57 @@
 
 </head>
 <style>
-    
+
     article p{
         padding: 12px;
         background-color: lightslategray;
     }
 
+    /* ler da direita para esquerda */
+    #principal p.promocao{
+        padding: 12px;
+        background-color: lightcoral;
+    }
+   
+    body #principal article section p.coordenadores{
+        /* espaço em branco é descendente */
+       
+        color: lightblue;
+    }
+
+    article>p{
+        border: 1px solid black;
+    }
+/*dois seletores com a virgula*/
+    main> article , section > p.coordenadores{
+        /* filho direto é > */
+        color: rgb(223, 173, 230);
+    }
+
 </style>
 <body>
+    <main id="principal">
+        <h1 id="titulo">Portal de cursos</h1>
+        <p id="descricao">Temos cursos nas mais diversas areas</p>
+        <p class="promocao nova">Venha conversar de estudos</p>
+        <strong>Estamos te esperando</strong>
     
-    <h1 id="titulo">Portal de cursos</h1>
-    <p id="descricao">Temos cursos nas mais diversas areas</p>
-    <p class="promocao nova">Venha conversar de estudos</p>
-    <strong>Estamos te esperando</strong>
-
-    <article>
-    <p class="novo-curso">RI</p>
-    <p class="curso">Engenharia da computaçao</p>
-    <p class="curso">Farmacia</p>
-    </article>
-
-    <p id="contato" class="final-pagina">Entre em contato: 121321</p>
-    <p id="rodape" class="final-pagina">&copy;Todos os dieitos reservados</p>
-
+        <p>Cursos</p>
+        <article>
+        <p class="novo-curso">RI</p>
+        <p class="curso">Engenharia da computaçao</p>
+        <p class="curso">Farmacia</p>
+        <section>
+            <p class="coordenadores">
+                Conheça nossos cordenadores
+            </p>
+        </section>
+        </article>
+    
+        <p id="contato" class="final-pagina">Entre em contato: 121321</p>
+        <p id="rodape" class="final-pagina">&copy;Todos os dieitos reservados</p>    
+    </main>
+   
     
 </body>
 </html>
