@@ -53,6 +53,6 @@ p.final-pagina#rodape{
 
 /* ou */
 
-.curso, .novo-curso{
-    color: darkred;
+.curso, .novo-curso, #contato{
+    color: rgb(125, 139, 0);
 }
