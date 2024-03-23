@@ -1,0 +1,32 @@
+ /* p{ */
+    /* important anula o efeito cascata e dois important volta pro cascata entre eles */
+    /* color: red !important;
+}
+p{
+    color: blue;
+} */
+
+/* pontuaçoes */
+.descriçao{
+
+}
+p{
+    color: red;
+}
+
+.principal article{
+
+}
+
+main article{
+
+}
+
+main, article{
+
+}
+
+/* #teste1 body>.c1 .c2 > div>div>div> p > .c2.c3.c4#abc > p > p p p p p > div .classeFinal .ufa{
+
+    teste e abc é 100 .c é classe 10 p e div é 1 (2,7,12)
+} */
