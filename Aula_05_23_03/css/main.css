@@ -21,3 +21,38 @@ p#descricao{
     text-align: center;
 }
 
+/*por classe*/
+
+p.promocao{
+    background-color: darkgreen;
+    text-align: center;
+}
+h1.promocao{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.nova{
+    color: white;
+}
+
+p.final-pagina#rodape{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+/* .novo-curso{
+    color: blanchedalmond;
+    
+}
+.curso{
+    color: darkred;
+    
+} */
+
+/* ou */
+
+.curso, .novo-curso{
+    color: darkred;
+}
