@@ -1,4 +1,6 @@
-p{
+/*por tipo*/
+
+/* p{
     color: darkred;
 }
 h1{
@@ -6,4 +8,16 @@ h1{
 }
 strong{
     color: darkgreen;
+} */
+
+/*por id*/
+#titulo{
+    color: blue;
+    text-align: center;
 }
+
+p#descricao{
+    color: darkred;
+    text-align: center;
+}
+
