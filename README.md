@@ -1,2 +1,2 @@
 # ECM252_LP2
-aulas da matéria do quarto ano linguagens de programação II 202
+aulas da matéria do quarto ano linguagens de programação II 2024
