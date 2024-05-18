@@ -4,11 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste HTML</title>
+    <style>
+        .basico{
+            width: 200px;
+            padding-left: 10 px;
+            padding-right: 10 px;
+            border: 2px solid black;
+        }
+
+        .outra{
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 <body>
     <div style="margin:auto; width: 768 px; background-color: aliceblue; padding: 12 px; border-radius: 8 px ;">
         <label for="nome" style="display: block;margin-bottom: 4px;">Nome: </label>
-        <input type="text" id="nome" style="padding-top: 8px; padding-bottom: 8px; border-style: hidden; outline: ;"
+        <input type="text" id="nome" style="padding-top: 8px; padding-bottom: 8px; border-style: hidden; outline:none; width: 100%; border-radius: 8px; box-sizing: border-box;">
+        <button style="margin-top: 12px ;padding-top: 8px; padding-bottom: 8px;background-color: blueviolet; color: white; border: none; width: 100%; border-radius: 8px;">enviar</button>
+    
+        <!-- box sizing:content-box -->
+    <!-- <div class="basico">Caixa 1 </div>
+    <div class="basico outra">Caixa 2 </div> -->
+
     </div>
 </body>
 </html>
