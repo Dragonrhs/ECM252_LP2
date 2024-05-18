@@ -1,0 +1,9 @@
+bootstrap
+apostila 4 react
+car body +- pagina 10
+site para icones (adiciona icone ex fa-face-smile) https://fontawesome.com/
+rafce enter par aprompt de react componente
+parece uma tag mas é uma chama de funçao <pedido />  voce import Pedido from 
+props +- pag 16
+pag 20 como acessas os filhos dentro do container 
+seçao 2.8 terminada
