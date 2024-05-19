@@ -1,7 +1,9 @@
 bootstrap
 apostila 4 react
+npm install bootstrap
 car body +- pagina 10
 site para icones (adiciona icone ex fa-face-smile) https://fontawesome.com/
+npm install --save @fortawesome/fontawesome-free
 rafce enter par aprompt de react componente
 parece uma tag mas é uma chama de funçao <pedido />  voce import Pedido from 
 props +- pag 16
