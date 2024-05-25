@@ -1,2 +1,5 @@
 finalizado apostila 04
 começo da apostila 05
+
+variavel de estado quando atualizada a tela é atualizada automaticamente
+hooks 
